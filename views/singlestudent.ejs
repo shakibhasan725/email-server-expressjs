@@ -1,0 +1,25 @@
+
+<div class="container my-5 student-single">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <a class="btn btn-sm btn-primary" href="/">Back</a>
+            <br>
+            <br>
+            <div class="card shadow">
+                <div class="card-body">
+                    
+                    <div class="single_img_show justify-content-center shadow">
+                        <img src="/img/student/<%= studentSingleData.photo %> " alt="">
+                    </div>
+                    <div class="single_details  shadow">
+                        <h3><%= studentSingleData.name %></h3>
+                        <h6>Phone: <%= studentSingleData.phone %></h6>
+                        <h6>Email: <%= studentSingleData.email %></h6>
+                        <h6>Location: <%= studentSingleData.location %></h6>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

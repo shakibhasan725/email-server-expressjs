@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+
+
+
+
+
+
+.student-table img{
+
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.student-table table td{
+    vertical-align: middle;
+}
+
+.student-form label img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    background-blend-mode:screen;
+}
+
+.student-form .hide_tag{
+    display: none;
+}
+
+.preview-photo{
+    width: 100%;
+   object-fit: cover;
+}
